@@ -9,7 +9,7 @@ public interface ModuleService
 {
 	public boolean add(Module dept);
 
-	public Module get(Integer id);
+	public Module get(Integer dbid);
 
 	public List<Module> list();
 }

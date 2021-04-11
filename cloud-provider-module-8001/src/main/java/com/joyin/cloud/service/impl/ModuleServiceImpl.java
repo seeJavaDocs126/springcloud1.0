@@ -21,9 +21,9 @@ public class ModuleServiceImpl implements ModuleService
 	}
 
 	@Override
-	public Module get(Integer id)
+	public Module get(Integer dbid)
 	{
-		return moduleDao.findById(id);
+		return moduleDao.findById(dbid);
 	}
 
 	@Override
