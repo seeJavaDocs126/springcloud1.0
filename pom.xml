@@ -11,6 +11,7 @@
         <module>cloud-common-api</module>
         <module>cloud-provider-module-8001</module>
         <module>cloud-consumer-module-80</module>
+        <module>cloud-eureka-7001</module>
     </modules>
     <packaging>pom</packaging>
 

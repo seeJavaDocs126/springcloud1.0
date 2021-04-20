@@ -11,7 +11,7 @@
 		select dbid,moduleid,modulename,dbsource from sys_module;
 	</select>
 	<insert id="addModule" parameterType="Module">
-		INSERT INTO sys_module(moduleid,modulename,db_source) VALUES(#{moduleid},#{modulename},DATABASE());
+		INSERT INTO sys_module(moduleid,modulename,dbsource) VALUES(#{moduleid},#{modulename},DATABASE());
 	</insert>
 
 </mapper>
