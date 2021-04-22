@@ -13,8 +13,7 @@ import org.springframework.web.client.RestTemplate;
 public class ModuleController_Consumer
 {
 
-	private static final String REST_URL_PREFIX = "http://localhost:8001";
-	//private static final String REST_URL_PREFIX = "http://MICROSERVICECLOUD-DEPT";
+	private static final String REST_URL_PREFIX = "http://CLOUD-MODULE";
 
 	/**
 	 * 使用 使用restTemplate访问restful接口非常的简单粗暴无脑。 (url, requestMap,

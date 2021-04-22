@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cloud-provider-module-8001</artifactId>
+    <artifactId>cloud-provider-module-8002</artifactId>
 
     <dependencies>
         <dependency><!-- 引入自己定义的api通用包，可以使用Dept部门Entity -->
