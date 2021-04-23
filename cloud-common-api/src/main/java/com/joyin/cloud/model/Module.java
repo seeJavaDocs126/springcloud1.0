@@ -1,4 +1,4 @@
-package com.joyin.model;
+package com.joyin.cloud.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

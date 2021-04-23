@@ -1,7 +1,7 @@
 package com.joyin.cloud.service;
 
 
-import com.joyin.model.Module;
+import com.joyin.cloud.model.Module;
 
 import java.util.List;
 

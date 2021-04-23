@@ -2,7 +2,7 @@ package com.joyin.cloud.controller;
 
 import java.util.List;
 import com.joyin.cloud.service.ModuleService;
-import com.joyin.model.Module;
+import com.joyin.cloud.model.Module;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;

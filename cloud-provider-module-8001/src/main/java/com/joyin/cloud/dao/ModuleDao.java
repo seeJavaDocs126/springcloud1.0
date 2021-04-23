@@ -1,6 +1,6 @@
 package com.joyin.cloud.dao;
 
-import com.joyin.model.Module;
+import com.joyin.cloud.model.Module;
 import org.apache.ibatis.annotations.Mapper;
 import java.util.List;
 
