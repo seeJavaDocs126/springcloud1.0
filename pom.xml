@@ -17,6 +17,9 @@
         <module>cloud-provider-module-8002</module>
         <module>cloud-provider-module-8003</module>
         <module>cloud-consumer-module-feign</module>
+        <module>cloud-provider-module-hystrix-8001</module>
+        <module>cloud-consumer-hystrix-dashboard</module>
+        <module>cloud-zuul-gateway-3001</module>
     </modules>
     <packaging>pom</packaging>
 

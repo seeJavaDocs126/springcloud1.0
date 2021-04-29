@@ -24,7 +24,7 @@ import java.util.List;
  * @Date 2021-04-23 9:57
  * @Version V1.0
  */
-@FeignClient(value="CLOUD-MODULE")
+@FeignClient(value="CLOUD-MODULE",fallbackFactory = ModuleClientServiceFallbackFactory.class)
 public interface ModuleClientService {
 
     @RequestMapping(value = "/module/add", method = RequestMethod.POST)

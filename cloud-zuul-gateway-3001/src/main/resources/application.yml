@@ -1,0 +1,29 @@
+server:
+  port: 3001
+
+spring:
+  application:
+    name: cloud-zuul-gateway
+
+zuul:
+  prefix: /Ticm
+  ignored-services: "*"
+  routes:
+    mydept.serviceId: cloud-module
+    mydept.path: /cmodule/**
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+  instance:
+    instance-id: gateway-3001
+    prefer-ip-address: true
+
+info:
+  app.name: wd-springcloud1.0
+  company.name: com.joyin
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
+
+
